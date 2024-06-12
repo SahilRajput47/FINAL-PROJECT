@@ -1,0 +1,85 @@
+* {
+  background-color: #e8b4bc;
+}
+
+#form {
+  background-color: white;
+  height: 376px;
+  width: 346px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 480px;
+  border-radius: 15px;
+}
+h1 {
+  background-color: white;
+  text-align: center;
+  padding-top: 10%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+}
+#one {
+  background-color: #d282a6;
+  color: white;
+  height: 35px;
+  width: 100px;
+  border-radius: 12px;
+  margin-left: 18%;
+  text-decoration: none;
+}
+#sudo {
+  background-color: white;
+  height: 35px;
+  width: 87px;
+  border-radius: 12px;
+  margin-right: 19%;
+  text-align: center;
+  text-decoration: none;
+}
+#two {
+  background-color: white;
+  height: 26px;
+  width: 180px;
+  border: solid rgba(0, 0, 0, 0.404);
+  border-radius: 10px;
+}
+#three {
+  background-color: white;
+  height: 26px;
+  width: 180px;
+  border: solid rgba(0, 0, 0, 0.404);
+  border-radius: 10px;
+}
+#four {
+  background-color: white;
+  color: #b279a7;
+  text-decoration: none;
+}
+#tap {
+  background-color: #d282a6;
+  color: white;
+  height: 36px;
+  width: 180px;
+  border: #d282a6;
+  text-align: center;
+  border-radius: 10px;
+}
+#five {
+  color: rgba(0, 0, 0, 70);
+  background-color: white;
+}
+#six {
+  background-color: white;
+  color: #b279a7;
+  text-decoration: none;
+}
+
+#pt {
+  background-color: white;
+  color: white;
+}
+#ph {
+  background-color: white;
+  color: white;
+}
