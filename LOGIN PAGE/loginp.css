@@ -1,5 +1,14 @@
+body{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
 * {
   background-color: #e8b4bc;
+
+
+
 }
 
 #form {
@@ -7,9 +16,12 @@
   height: 376px;
   width: 346px;
   text-align: center;
-  margin-top: 100px;
-  margin-left: 480px;
   border-radius: 15px;
+  margin-top: 50%;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
 }
 h1 {
   background-color: white;

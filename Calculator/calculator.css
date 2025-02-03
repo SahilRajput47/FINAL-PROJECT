@@ -1,0 +1,60 @@
+/* Centering calculator in the center of the screen */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #e8f5e9; /* Pale green for browser window background */
+}
+
+/* Calculator styles */
+#calculator {
+  border: 1px solid rgb(187, 183, 183);
+  border-radius: 5px;
+  width: 220px;
+  background-color: #ffecb3; /* Light yellow for calculator background */
+}
+
+/* Display styles */
+#display {
+  margin: 10px;
+  width: 90%;
+  font-size: 30px;
+  height: 50px;
+  background-color: #ffffff; /* White for display background */
+  color: #2c3e50; /* Dark blue-grey for display text */
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Button styles */
+.button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #c8e6c9; /* Light green for buttons */
+  color: #2c3e50; /* Dark blue-grey for button text */
+}
+
+.button:hover {
+  background-color: #a5d6a7; /* Slightly darker green for hover effect */
+}
+
+/* Operation buttons with color */
+.button:nth-child(4), /* Plus button */
+.button:nth-child(7), /* Minus button */
+.button:nth-child(10), /* Multiply button */
+.button:nth-child(13), /* Divide button */
+.button:nth-child(14) { /* Equals button */
+  background-color: #009688; /* Teal color for operation buttons */
+  color: white;
+}
